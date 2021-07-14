@@ -1,0 +1,58 @@
+/* COMMON */
+.body__container {
+    font-size: 16px;
+    font-weight: 400;
+    color :#333;
+}
+a {
+    text-decoration: none;
+}
+
+/* SECTION & INNER */
+.section {
+    position : relative;
+}
+.section .inner {
+    max-width: 90%;
+    margin : 0 auto;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+/* HEADER  */
+header {
+    border-bottom:  1px solid rgba(255, 141, 173, 0.834);
+    background : #fff;
+    box-shadow: 0 0 5px rgba(8, 8, 8, 0);
+}
+header .inner {
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo {
+
+}
+.section .inner .logo a {
+    display : block;
+    font-family: 'Bebas Neue', cursive;
+    font-size : 24px;
+    color :#333;
+    padding : 20px;
+    box-sizing: border-box;
+}
+.section .main-menu {
+    display : flex;
+}
+.section .inner .list-item {
+    margin-right : 20px;
+}
+.section .inner .list-item a {
+    padding : 20px;
+    color : #333;
+    font-size : 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+}
